@@ -1,0 +1,983 @@
+// Copyright (C) 1991-2010 Altera Corporation
+// Your use of Altera Corporation's design tools, logic functions 
+// and other software and tools, and its AMPP partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Altera Program License 
+// Subscription Agreement, Altera MegaCore Function License 
+// Agreement, or other applicable license agreement, including, 
+// without limitation, that your use is for the sole purpose of 
+// programming logic devices manufactured by Altera and sold by 
+// Altera or its authorized distributors.  Please refer to the 
+// applicable agreement for further details.
+
+
+// 
+// Device: Altera EP1S10F780C6 Package FBGA780
+// 
+
+// 
+// This SDF file should be used for ModelSim (Verilog) only
+// 
+
+(DELAYFILE
+  (SDFVERSION "2.1")
+  (DESIGN "simple_alu")
+  (DATE "11/06/2010 20:10:36")
+  (VENDOR "Altera")
+  (PROGRAM "Quartus II")
+  (VERSION "Version 10.0 Build 262 08/18/2010 Service Pack 1 SJ Web Edition")
+  (DIVIDER .)
+  (TIMESCALE 1 ps)
+
+  (CELL
+    (CELLTYPE "stratix_asynch_io")
+    (INSTANCE in2\[3\]\~I.inst1)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio combout (1295:1295:1295) (1295:1295:1295))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "stratix_asynch_io")
+    (INSTANCE in1\[3\]\~I.inst1)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio combout (1295:1295:1295) (1295:1295:1295))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "stratix_asynch_io")
+    (INSTANCE opcode\[0\]\~I.inst1)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio combout (1295:1295:1295) (1295:1295:1295))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "stratix_asynch_io")
+    (INSTANCE in2\[2\]\~I.inst1)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio combout (1295:1295:1295) (1295:1295:1295))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "stratix_asynch_io")
+    (INSTANCE in1\[2\]\~I.inst1)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio combout (760:760:760) (760:760:760))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "stratix_asynch_io")
+    (INSTANCE in2\[1\]\~I.inst1)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio combout (1295:1295:1295) (1295:1295:1295))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "stratix_asynch_io")
+    (INSTANCE in1\[1\]\~I.inst1)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio combout (1295:1295:1295) (1295:1295:1295))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "stratix_asynch_io")
+    (INSTANCE in2\[0\]\~I.inst1)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio combout (1295:1295:1295) (1295:1295:1295))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "stratix_asynch_io")
+    (INSTANCE in1\[0\]\~I.inst1)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio combout (1295:1295:1295) (1295:1295:1295))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "stratix_asynch_lcell")
+    (INSTANCE Add0\~5.lecomb)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (4520:4520:4520) (4520:4520:4520))
+        (PORT datab (4879:4879:4879) (4879:4879:4879))
+        (IOPATH dataa combout (459:459:459) (459:459:459))
+        (IOPATH datab combout (332:332:332) (332:332:332))
+        (IOPATH dataa cout0 (443:443:443) (443:443:443))
+        (IOPATH datab cout0 (344:344:344) (344:344:344))
+        (IOPATH dataa cout1 (451:451:451) (451:451:451))
+        (IOPATH datab cout1 (341:341:341) (341:341:341))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "stratix_asynch_lcell")
+    (INSTANCE Add0\~10.lecomb)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (5253:5253:5253) (5253:5253:5253))
+        (PORT datab (4760:4760:4760) (4760:4760:4760))
+        (IOPATH dataa combout (459:459:459) (459:459:459))
+        (IOPATH datab combout (332:332:332) (332:332:332))
+        (IOPATH cin0 combout (432:432:432) (432:432:432))
+        (IOPATH cin1 combout (449:449:449) (449:449:449))
+        (IOPATH dataa cout0 (443:443:443) (443:443:443))
+        (IOPATH datab cout0 (344:344:344) (344:344:344))
+        (IOPATH cin0 cout0 (60:60:60) (60:60:60))
+        (IOPATH dataa cout1 (451:451:451) (451:451:451))
+        (IOPATH datab cout1 (341:341:341) (341:341:341))
+        (IOPATH cin1 cout1 (62:62:62) (62:62:62))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "stratix_asynch_lcell")
+    (INSTANCE Add0\~15.lecomb)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (4464:4464:4464) (4464:4464:4464))
+        (PORT datab (5239:5239:5239) (5239:5239:5239))
+        (IOPATH dataa combout (459:459:459) (459:459:459))
+        (IOPATH datab combout (332:332:332) (332:332:332))
+        (IOPATH cin0 combout (432:432:432) (432:432:432))
+        (IOPATH cin1 combout (449:449:449) (449:449:449))
+        (IOPATH dataa cout0 (443:443:443) (443:443:443))
+        (IOPATH datab cout0 (344:344:344) (344:344:344))
+        (IOPATH cin0 cout0 (60:60:60) (60:60:60))
+        (IOPATH dataa cout1 (451:451:451) (451:451:451))
+        (IOPATH datab cout1 (341:341:341) (341:341:341))
+        (IOPATH cin1 cout1 (62:62:62) (62:62:62))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "stratix_asynch_lcell")
+    (INSTANCE Add0\~0.lecomb)
+    (DELAY
+      (ABSOLUTE
+        (PORT datab (4586:4586:4586) (4586:4586:4586))
+        (PORT datad (4228:4228:4228) (4228:4228:4228))
+        (IOPATH datab combout (332:332:332) (332:332:332))
+        (IOPATH datad combout (87:87:87) (87:87:87))
+        (IOPATH cin0 combout (432:432:432) (432:432:432))
+        (IOPATH cin1 combout (449:449:449) (449:449:449))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "stratix_asynch_lcell")
+    (INSTANCE Mux4\~1.lecomb)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (4310:4310:4310) (4310:4310:4310))
+        (PORT datab (4510:4510:4510) (4510:4510:4510))
+        (PORT datac (4471:4471:4471) (4471:4471:4471))
+        (PORT datad (1369:1369:1369) (1369:1369:1369))
+        (IOPATH dataa combout (459:459:459) (459:459:459))
+        (IOPATH datab combout (332:332:332) (332:332:332))
+        (IOPATH datac combout (213:213:213) (213:213:213))
+        (IOPATH datad combout (87:87:87) (87:87:87))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "stratix_asynch_lcell")
+    (INSTANCE Add1\~5.lecomb)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (4310:4310:4310) (4310:4310:4310))
+        (PORT datab (3872:3872:3872) (3872:3872:3872))
+        (IOPATH dataa combout (459:459:459) (459:459:459))
+        (IOPATH datab combout (332:332:332) (332:332:332))
+        (IOPATH dataa cout0 (443:443:443) (443:443:443))
+        (IOPATH datab cout0 (344:344:344) (344:344:344))
+        (IOPATH dataa cout1 (451:451:451) (451:451:451))
+        (IOPATH datab cout1 (341:341:341) (341:341:341))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "stratix_asynch_lcell")
+    (INSTANCE Add1\~10.lecomb)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (5440:5440:5440) (5440:5440:5440))
+        (PORT datab (4638:4638:4638) (4638:4638:4638))
+        (IOPATH dataa combout (459:459:459) (459:459:459))
+        (IOPATH datab combout (332:332:332) (332:332:332))
+        (IOPATH cin0 combout (432:432:432) (432:432:432))
+        (IOPATH cin1 combout (449:449:449) (449:449:449))
+        (IOPATH dataa cout0 (443:443:443) (443:443:443))
+        (IOPATH datab cout0 (344:344:344) (344:344:344))
+        (IOPATH cin0 cout0 (60:60:60) (60:60:60))
+        (IOPATH dataa cout1 (451:451:451) (451:451:451))
+        (IOPATH datab cout1 (341:341:341) (341:341:341))
+        (IOPATH cin1 cout1 (62:62:62) (62:62:62))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "stratix_asynch_lcell")
+    (INSTANCE Add1\~15.lecomb)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (4701:4701:4701) (4701:4701:4701))
+        (PORT datab (4426:4426:4426) (4426:4426:4426))
+        (IOPATH dataa combout (459:459:459) (459:459:459))
+        (IOPATH datab combout (332:332:332) (332:332:332))
+        (IOPATH cin0 combout (432:432:432) (432:432:432))
+        (IOPATH cin1 combout (449:449:449) (449:449:449))
+        (IOPATH dataa cout0 (443:443:443) (443:443:443))
+        (IOPATH datab cout0 (344:344:344) (344:344:344))
+        (IOPATH cin0 cout0 (60:60:60) (60:60:60))
+        (IOPATH dataa cout1 (451:451:451) (451:451:451))
+        (IOPATH datab cout1 (341:341:341) (341:341:341))
+        (IOPATH cin1 cout1 (62:62:62) (62:62:62))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "stratix_asynch_lcell")
+    (INSTANCE Add1\~0.lecomb)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (4399:4399:4399) (4399:4399:4399))
+        (PORT datad (4353:4353:4353) (4353:4353:4353))
+        (IOPATH dataa combout (459:459:459) (459:459:459))
+        (IOPATH datad combout (87:87:87) (87:87:87))
+        (IOPATH cin0 combout (432:432:432) (432:432:432))
+        (IOPATH cin1 combout (449:449:449) (449:449:449))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "stratix_asynch_lcell")
+    (INSTANCE Mux4\~2.lecomb)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (4309:4309:4309) (4309:4309:4309))
+        (PORT datac (1431:1431:1431) (1431:1431:1431))
+        (PORT datad (4525:4525:4525) (4525:4525:4525))
+        (IOPATH dataa combout (459:459:459) (459:459:459))
+        (IOPATH datac combout (213:213:213) (213:213:213))
+        (IOPATH datad combout (87:87:87) (87:87:87))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "stratix_asynch_io")
+    (INSTANCE opcode\[1\]\~I.inst1)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio combout (1295:1295:1295) (1295:1295:1295))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "stratix_asynch_io")
+    (INSTANCE opcode\[2\]\~I.inst1)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio combout (1295:1295:1295) (1295:1295:1295))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "stratix_asynch_lcell")
+    (INSTANCE Mux4\~0.lecomb)
+    (DELAY
+      (ABSOLUTE
+        (PORT datac (4449:4449:4449) (4449:4449:4449))
+        (PORT datad (4490:4490:4490) (4490:4490:4490))
+        (IOPATH datac combout (213:213:213) (213:213:213))
+        (IOPATH datad combout (87:87:87) (87:87:87))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "stratix_asynch_lcell")
+    (INSTANCE Mux4\~3.lecomb)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (355:355:355) (355:355:355))
+        (PORT datab (4532:4532:4532) (4532:4532:4532))
+        (PORT datac (365:365:365) (365:365:365))
+        (PORT datad (375:375:375) (375:375:375))
+        (IOPATH dataa combout (459:459:459) (459:459:459))
+        (IOPATH datab combout (332:332:332) (332:332:332))
+        (IOPATH datac combout (213:213:213) (213:213:213))
+        (IOPATH datad combout (87:87:87) (87:87:87))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "stratix_asynch_lcell")
+    (INSTANCE Mux3\~2.lecomb)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (4688:4688:4688) (4688:4688:4688))
+        (PORT datac (4470:4470:4470) (4470:4470:4470))
+        (PORT datad (4509:4509:4509) (4509:4509:4509))
+        (IOPATH dataa combout (459:459:459) (459:459:459))
+        (IOPATH datac combout (213:213:213) (213:213:213))
+        (IOPATH datad combout (87:87:87) (87:87:87))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "stratix_asynch_lcell")
+    (INSTANCE Mux3\~3.lecomb)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (4887:4887:4887) (4887:4887:4887))
+        (PORT datab (340:340:340) (340:340:340))
+        (PORT datac (4476:4476:4476) (4476:4476:4476))
+        (PORT datad (556:556:556) (556:556:556))
+        (IOPATH dataa combout (459:459:459) (459:459:459))
+        (IOPATH datab combout (332:332:332) (332:332:332))
+        (IOPATH datac combout (213:213:213) (213:213:213))
+        (IOPATH datad combout (87:87:87) (87:87:87))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "stratix_asynch_lcell")
+    (INSTANCE ShiftRight0\~2.lecomb)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (4449:4449:4449) (4449:4449:4449))
+        (PORT datab (3880:3880:3880) (3880:3880:3880))
+        (PORT datac (4323:4323:4323) (4323:4323:4323))
+        (IOPATH dataa combout (459:459:459) (459:459:459))
+        (IOPATH datab combout (332:332:332) (332:332:332))
+        (IOPATH datac combout (213:213:213) (213:213:213))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "stratix_asynch_lcell")
+    (INSTANCE ShiftRight0\~0.lecomb)
+    (DELAY
+      (ABSOLUTE
+        (PORT datab (4092:4092:4092) (4092:4092:4092))
+        (PORT datad (4082:4082:4082) (4082:4082:4082))
+        (IOPATH datab combout (332:332:332) (332:332:332))
+        (IOPATH datad combout (87:87:87) (87:87:87))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "stratix_asynch_lcell")
+    (INSTANCE ShiftRight0\~1.lecomb)
+    (DELAY
+      (ABSOLUTE
+        (PORT datab (3880:3880:3880) (3880:3880:3880))
+        (PORT datac (4440:4440:4440) (4440:4440:4440))
+        (PORT datad (4351:4351:4351) (4351:4351:4351))
+        (IOPATH datab combout (332:332:332) (332:332:332))
+        (IOPATH datac combout (213:213:213) (213:213:213))
+        (IOPATH datad combout (87:87:87) (87:87:87))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "stratix_asynch_lcell")
+    (INSTANCE ShiftRight0\~3.lecomb)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (359:359:359) (359:359:359))
+        (PORT datab (548:548:548) (548:548:548))
+        (PORT datac (622:622:622) (622:622:622))
+        (PORT datad (5430:5430:5430) (5430:5430:5430))
+        (IOPATH dataa combout (459:459:459) (459:459:459))
+        (IOPATH datab combout (332:332:332) (332:332:332))
+        (IOPATH datac combout (213:213:213) (213:213:213))
+        (IOPATH datad combout (87:87:87) (87:87:87))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "stratix_asynch_lcell")
+    (INSTANCE ShiftLeft0\~6.lecomb)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (3937:3937:3937) (3937:3937:3937))
+        (PORT datac (4372:4372:4372) (4372:4372:4372))
+        (IOPATH dataa combout (459:459:459) (459:459:459))
+        (IOPATH datac combout (213:213:213) (213:213:213))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "stratix_asynch_lcell")
+    (INSTANCE ShiftLeft0\~8.lecomb)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (1411:1411:1411) (1411:1411:1411))
+        (PORT datab (4586:4586:4586) (4586:4586:4586))
+        (PORT datac (4471:4471:4471) (4471:4471:4471))
+        (PORT datad (5250:5250:5250) (5250:5250:5250))
+        (IOPATH dataa combout (459:459:459) (459:459:459))
+        (IOPATH datab combout (332:332:332) (332:332:332))
+        (IOPATH datac combout (213:213:213) (213:213:213))
+        (IOPATH datad combout (87:87:87) (87:87:87))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "stratix_asynch_lcell")
+    (INSTANCE Mux3\~0.lecomb)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (4882:4882:4882) (4882:4882:4882))
+        (PORT datab (341:341:341) (341:341:341))
+        (PORT datac (4471:4471:4471) (4471:4471:4471))
+        (PORT datad (561:561:561) (561:561:561))
+        (IOPATH dataa combout (459:459:459) (459:459:459))
+        (IOPATH datab combout (332:332:332) (332:332:332))
+        (IOPATH datac combout (213:213:213) (213:213:213))
+        (IOPATH datad combout (87:87:87) (87:87:87))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "stratix_asynch_lcell")
+    (INSTANCE Mux3\~1.lecomb)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (362:362:362) (362:362:362))
+        (PORT datab (338:338:338) (338:338:338))
+        (PORT datac (4455:4455:4455) (4455:4455:4455))
+        (PORT datad (1666:1666:1666) (1666:1666:1666))
+        (IOPATH dataa combout (459:459:459) (459:459:459))
+        (IOPATH datab combout (332:332:332) (332:332:332))
+        (IOPATH datac combout (213:213:213) (213:213:213))
+        (IOPATH datad combout (87:87:87) (87:87:87))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "stratix_asynch_lcell")
+    (INSTANCE Mux3\~4.lecomb)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (1404:1404:1404) (1404:1404:1404))
+        (PORT datab (4673:4673:4673) (4673:4673:4673))
+        (PORT datad (1694:1694:1694) (1694:1694:1694))
+        (IOPATH dataa combout (459:459:459) (459:459:459))
+        (IOPATH datab combout (332:332:332) (332:332:332))
+        (IOPATH datad combout (87:87:87) (87:87:87))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "stratix_asynch_lcell")
+    (INSTANCE Mux2\~2.lecomb)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (4455:4455:4455) (4455:4455:4455))
+        (PORT datab (4667:4667:4667) (4667:4667:4667))
+        (PORT datac (5362:5362:5362) (5362:5362:5362))
+        (PORT datad (4527:4527:4527) (4527:4527:4527))
+        (IOPATH dataa combout (459:459:459) (459:459:459))
+        (IOPATH datab combout (332:332:332) (332:332:332))
+        (IOPATH datac combout (213:213:213) (213:213:213))
+        (IOPATH datad combout (87:87:87) (87:87:87))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "stratix_asynch_lcell")
+    (INSTANCE ShiftLeft0\~7.lecomb)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (3936:3936:3936) (3936:3936:3936))
+        (PORT datab (4466:4466:4466) (4466:4466:4466))
+        (PORT datac (4371:4371:4371) (4371:4371:4371))
+        (IOPATH dataa combout (459:459:459) (459:459:459))
+        (IOPATH datab combout (332:332:332) (332:332:332))
+        (IOPATH datac combout (213:213:213) (213:213:213))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "stratix_asynch_lcell")
+    (INSTANCE ShiftLeft0\~9.lecomb)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (1390:1390:1390) (1390:1390:1390))
+        (PORT datab (4588:4588:4588) (4588:4588:4588))
+        (PORT datac (4473:4473:4473) (4473:4473:4473))
+        (PORT datad (5249:5249:5249) (5249:5249:5249))
+        (IOPATH dataa combout (459:459:459) (459:459:459))
+        (IOPATH datab combout (332:332:332) (332:332:332))
+        (IOPATH datac combout (213:213:213) (213:213:213))
+        (IOPATH datad combout (87:87:87) (87:87:87))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "stratix_asynch_lcell")
+    (INSTANCE Mux2\~0.lecomb)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (4881:4881:4881) (4881:4881:4881))
+        (PORT datab (341:341:341) (341:341:341))
+        (PORT datac (4472:4472:4472) (4472:4472:4472))
+        (PORT datad (341:341:341) (341:341:341))
+        (IOPATH dataa combout (459:459:459) (459:459:459))
+        (IOPATH datab combout (332:332:332) (332:332:332))
+        (IOPATH datac combout (213:213:213) (213:213:213))
+        (IOPATH datad combout (87:87:87) (87:87:87))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "stratix_asynch_lcell")
+    (INSTANCE ShiftRight0\~4.lecomb)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (4604:4604:4604) (4604:4604:4604))
+        (PORT datad (4461:4461:4461) (4461:4461:4461))
+        (IOPATH dataa combout (459:459:459) (459:459:459))
+        (IOPATH datad combout (87:87:87) (87:87:87))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "stratix_asynch_lcell")
+    (INSTANCE ShiftRight0\~5.lecomb)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (4450:4450:4450) (4450:4450:4450))
+        (PORT datab (3881:3881:3881) (3881:3881:3881))
+        (PORT datac (4439:4439:4439) (4439:4439:4439))
+        (IOPATH dataa combout (459:459:459) (459:459:459))
+        (IOPATH datab combout (332:332:332) (332:332:332))
+        (IOPATH datac combout (213:213:213) (213:213:213))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "stratix_asynch_lcell")
+    (INSTANCE ShiftRight0\~6.lecomb)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (1359:1359:1359) (1359:1359:1359))
+        (PORT datab (551:551:551) (551:551:551))
+        (PORT datac (358:358:358) (358:358:358))
+        (PORT datad (5433:5433:5433) (5433:5433:5433))
+        (IOPATH dataa combout (459:459:459) (459:459:459))
+        (IOPATH datab combout (332:332:332) (332:332:332))
+        (IOPATH datac combout (213:213:213) (213:213:213))
+        (IOPATH datad combout (87:87:87) (87:87:87))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "stratix_asynch_lcell")
+    (INSTANCE Mux2\~1.lecomb)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (1397:1397:1397) (1397:1397:1397))
+        (PORT datab (4529:4529:4529) (4529:4529:4529))
+        (PORT datac (1670:1670:1670) (1670:1670:1670))
+        (PORT datad (1482:1482:1482) (1482:1482:1482))
+        (IOPATH dataa combout (459:459:459) (459:459:459))
+        (IOPATH datab combout (332:332:332) (332:332:332))
+        (IOPATH datac combout (213:213:213) (213:213:213))
+        (IOPATH datad combout (87:87:87) (87:87:87))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "stratix_asynch_lcell")
+    (INSTANCE Mux2\~3.lecomb)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (4501:4501:4501) (4501:4501:4501))
+        (PORT datac (365:365:365) (365:365:365))
+        (PORT datad (354:354:354) (354:354:354))
+        (IOPATH dataa combout (459:459:459) (459:459:459))
+        (IOPATH datac combout (213:213:213) (213:213:213))
+        (IOPATH datad combout (87:87:87) (87:87:87))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "stratix_asynch_lcell")
+    (INSTANCE result\~0.lecomb)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (4426:4426:4426) (4426:4426:4426))
+        (PORT datac (4489:4489:4489) (4489:4489:4489))
+        (IOPATH dataa combout (459:459:459) (459:459:459))
+        (IOPATH datac combout (213:213:213) (213:213:213))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "stratix_asynch_lcell")
+    (INSTANCE Mux1\~6.lecomb)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (4602:4602:4602) (4602:4602:4602))
+        (PORT datab (4669:4669:4669) (4669:4669:4669))
+        (PORT datac (1424:1424:1424) (1424:1424:1424))
+        (PORT datad (5413:5413:5413) (5413:5413:5413))
+        (IOPATH dataa combout (459:459:459) (459:459:459))
+        (IOPATH datab combout (332:332:332) (332:332:332))
+        (IOPATH datac combout (213:213:213) (213:213:213))
+        (IOPATH datad combout (87:87:87) (87:87:87))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "stratix_asynch_lcell")
+    (INSTANCE Mux1\~5.lecomb)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (5432:5432:5432) (5432:5432:5432))
+        (PORT datab (4668:4668:4668) (4668:4668:4668))
+        (PORT datac (4532:4532:4532) (4532:4532:4532))
+        (PORT datad (4656:4656:4656) (4656:4656:4656))
+        (IOPATH dataa combout (459:459:459) (459:459:459))
+        (IOPATH datab combout (332:332:332) (332:332:332))
+        (IOPATH datac combout (213:213:213) (213:213:213))
+        (IOPATH datad combout (87:87:87) (87:87:87))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "stratix_asynch_lcell")
+    (INSTANCE Mux1\~7.lecomb)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (360:360:360) (360:360:360))
+        (PORT datab (589:589:589) (589:589:589))
+        (PORT datac (883:883:883) (883:883:883))
+        (PORT datad (860:860:860) (860:860:860))
+        (IOPATH dataa combout (459:459:459) (459:459:459))
+        (IOPATH datab combout (332:332:332) (332:332:332))
+        (IOPATH datac combout (213:213:213) (213:213:213))
+        (IOPATH datad combout (87:87:87) (87:87:87))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "stratix_asynch_lcell")
+    (INSTANCE Mux1\~4.lecomb)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (4388:4388:4388) (4388:4388:4388))
+        (PORT datab (4380:4380:4380) (4380:4380:4380))
+        (PORT datac (4438:4438:4438) (4438:4438:4438))
+        (PORT datad (5355:5355:5355) (5355:5355:5355))
+        (IOPATH dataa combout (459:459:459) (459:459:459))
+        (IOPATH datab combout (332:332:332) (332:332:332))
+        (IOPATH datac combout (213:213:213) (213:213:213))
+        (IOPATH datad combout (87:87:87) (87:87:87))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "stratix_asynch_lcell")
+    (INSTANCE Mux1\~8.lecomb)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (362:362:362) (362:362:362))
+        (PORT datab (4473:4473:4473) (4473:4473:4473))
+        (PORT datac (4485:4485:4485) (4485:4485:4485))
+        (PORT datad (363:363:363) (363:363:363))
+        (IOPATH dataa combout (459:459:459) (459:459:459))
+        (IOPATH datab combout (332:332:332) (332:332:332))
+        (IOPATH datac combout (213:213:213) (213:213:213))
+        (IOPATH datad combout (87:87:87) (87:87:87))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "stratix_asynch_lcell")
+    (INSTANCE Mux1\~1.lecomb)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (1566:1566:1566) (1566:1566:1566))
+        (PORT datab (4669:4669:4669) (4669:4669:4669))
+        (PORT datac (3983:3983:3983) (3983:3983:3983))
+        (IOPATH dataa combout (459:459:459) (459:459:459))
+        (IOPATH datab combout (332:332:332) (332:332:332))
+        (IOPATH datac combout (213:213:213) (213:213:213))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "stratix_asynch_lcell")
+    (INSTANCE Mux1\~2.lecomb)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (4505:4505:4505) (4505:4505:4505))
+        (PORT datab (4647:4647:4647) (4647:4647:4647))
+        (PORT datac (4737:4737:4737) (4737:4737:4737))
+        (PORT datad (369:369:369) (369:369:369))
+        (IOPATH dataa combout (459:459:459) (459:459:459))
+        (IOPATH datab combout (332:332:332) (332:332:332))
+        (IOPATH datac combout (213:213:213) (213:213:213))
+        (IOPATH datad combout (87:87:87) (87:87:87))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "stratix_asynch_lcell")
+    (INSTANCE Mux1\~0.lecomb)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (3973:3973:3973) (3973:3973:3973))
+        (PORT datab (4670:4670:4670) (4670:4670:4670))
+        (PORT datac (1425:1425:1425) (1425:1425:1425))
+        (PORT datad (5414:5414:5414) (5414:5414:5414))
+        (IOPATH dataa combout (459:459:459) (459:459:459))
+        (IOPATH datab combout (332:332:332) (332:332:332))
+        (IOPATH datac combout (213:213:213) (213:213:213))
+        (IOPATH datad combout (87:87:87) (87:87:87))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "stratix_asynch_lcell")
+    (INSTANCE Mux1\~3.lecomb)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (1421:1421:1421) (1421:1421:1421))
+        (PORT datab (351:351:351) (351:351:351))
+        (PORT datac (382:382:382) (382:382:382))
+        (PORT datad (366:366:366) (366:366:366))
+        (IOPATH dataa combout (459:459:459) (459:459:459))
+        (IOPATH datab combout (332:332:332) (332:332:332))
+        (IOPATH datac combout (213:213:213) (213:213:213))
+        (IOPATH datad combout (87:87:87) (87:87:87))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "stratix_asynch_lcell")
+    (INSTANCE Mux1\~9.lecomb)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (3961:3961:3961) (3961:3961:3961))
+        (PORT datab (347:347:347) (347:347:347))
+        (PORT datac (4434:4434:4434) (4434:4434:4434))
+        (PORT datad (852:852:852) (852:852:852))
+        (IOPATH dataa combout (459:459:459) (459:459:459))
+        (IOPATH datab combout (332:332:332) (332:332:332))
+        (IOPATH datac combout (213:213:213) (213:213:213))
+        (IOPATH datad combout (87:87:87) (87:87:87))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "stratix_asynch_lcell")
+    (INSTANCE Mux1\~10.lecomb)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (1381:1381:1381) (1381:1381:1381))
+        (PORT datab (4534:4534:4534) (4534:4534:4534))
+        (PORT datac (1318:1318:1318) (1318:1318:1318))
+        (PORT datad (377:377:377) (377:377:377))
+        (IOPATH dataa combout (459:459:459) (459:459:459))
+        (IOPATH datab combout (332:332:332) (332:332:332))
+        (IOPATH datac combout (213:213:213) (213:213:213))
+        (IOPATH datad combout (87:87:87) (87:87:87))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "stratix_asynch_lcell")
+    (INSTANCE result\~1.lecomb)
+    (DELAY
+      (ABSOLUTE
+        (PORT datab (4425:4425:4425) (4425:4425:4425))
+        (PORT datad (4386:4386:4386) (4386:4386:4386))
+        (IOPATH datab combout (332:332:332) (332:332:332))
+        (IOPATH datad combout (87:87:87) (87:87:87))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "stratix_asynch_lcell")
+    (INSTANCE Mux0\~3.lecomb)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (361:361:361) (361:361:361))
+        (PORT datab (350:350:350) (350:350:350))
+        (PORT datac (883:883:883) (883:883:883))
+        (PORT datad (859:859:859) (859:859:859))
+        (IOPATH dataa combout (459:459:459) (459:459:459))
+        (IOPATH datab combout (332:332:332) (332:332:332))
+        (IOPATH datac combout (213:213:213) (213:213:213))
+        (IOPATH datad combout (87:87:87) (87:87:87))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "stratix_asynch_lcell")
+    (INSTANCE Mux0\~4.lecomb)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (358:358:358) (358:358:358))
+        (PORT datab (4425:4425:4425) (4425:4425:4425))
+        (PORT datac (4494:4494:4494) (4494:4494:4494))
+        (PORT datad (364:364:364) (364:364:364))
+        (IOPATH dataa combout (459:459:459) (459:459:459))
+        (IOPATH datab combout (332:332:332) (332:332:332))
+        (IOPATH datac combout (213:213:213) (213:213:213))
+        (IOPATH datad combout (87:87:87) (87:87:87))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "stratix_asynch_lcell")
+    (INSTANCE Mux0\~0.lecomb)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (3973:3973:3973) (3973:3973:3973))
+        (PORT datab (4668:4668:4668) (4668:4668:4668))
+        (PORT datac (1408:1408:1408) (1408:1408:1408))
+        (IOPATH dataa combout (459:459:459) (459:459:459))
+        (IOPATH datab combout (332:332:332) (332:332:332))
+        (IOPATH datac combout (213:213:213) (213:213:213))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "stratix_asynch_lcell")
+    (INSTANCE Mux0\~1.lecomb)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (373:373:373) (373:373:373))
+        (PORT datab (4672:4672:4672) (4672:4672:4672))
+        (PORT datac (4532:4532:4532) (4532:4532:4532))
+        (PORT datad (4463:4463:4463) (4463:4463:4463))
+        (IOPATH dataa combout (459:459:459) (459:459:459))
+        (IOPATH datab combout (332:332:332) (332:332:332))
+        (IOPATH datac combout (213:213:213) (213:213:213))
+        (IOPATH datad combout (87:87:87) (87:87:87))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "stratix_asynch_lcell")
+    (INSTANCE Mux0\~2.lecomb)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (376:376:376) (376:376:376))
+        (PORT datab (350:350:350) (350:350:350))
+        (PORT datac (381:381:381) (381:381:381))
+        (PORT datad (343:343:343) (343:343:343))
+        (IOPATH dataa combout (459:459:459) (459:459:459))
+        (IOPATH datab combout (332:332:332) (332:332:332))
+        (IOPATH datac combout (213:213:213) (213:213:213))
+        (IOPATH datad combout (87:87:87) (87:87:87))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "stratix_asynch_lcell")
+    (INSTANCE Mux0\~5.lecomb)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (1312:1312:1312) (1312:1312:1312))
+        (PORT datab (4523:4523:4523) (4523:4523:4523))
+        (PORT datac (4448:4448:4448) (4448:4448:4448))
+        (PORT datad (1055:1055:1055) (1055:1055:1055))
+        (IOPATH dataa combout (459:459:459) (459:459:459))
+        (IOPATH datab combout (332:332:332) (332:332:332))
+        (IOPATH datac combout (213:213:213) (213:213:213))
+        (IOPATH datad combout (87:87:87) (87:87:87))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "stratix_asynch_lcell")
+    (INSTANCE Mux0\~6.lecomb)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (1378:1378:1378) (1378:1378:1378))
+        (PORT datab (4533:4533:4533) (4533:4533:4533))
+        (PORT datac (368:368:368) (368:368:368))
+        (PORT datad (376:376:376) (376:376:376))
+        (IOPATH dataa combout (459:459:459) (459:459:459))
+        (IOPATH datab combout (332:332:332) (332:332:332))
+        (IOPATH datac combout (213:213:213) (213:213:213))
+        (IOPATH datad combout (87:87:87) (87:87:87))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "stratix_asynch_io")
+    (INSTANCE overflow\~I.inst1)
+    (DELAY
+      (ABSOLUTE
+        (PORT datain (3077:3077:3077) (3077:3077:3077))
+        (IOPATH datain padio (2504:2504:2504) (2504:2504:2504))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "stratix_asynch_io")
+    (INSTANCE result\[0\]\~I.inst1)
+    (DELAY
+      (ABSOLUTE
+        (PORT datain (2936:2936:2936) (2936:2936:2936))
+        (IOPATH datain padio (2495:2495:2495) (2495:2495:2495))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "stratix_asynch_io")
+    (INSTANCE result\[1\]\~I.inst1)
+    (DELAY
+      (ABSOLUTE
+        (PORT datain (1692:1692:1692) (1692:1692:1692))
+        (IOPATH datain padio (2504:2504:2504) (2504:2504:2504))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "stratix_asynch_io")
+    (INSTANCE result\[2\]\~I.inst1)
+    (DELAY
+      (ABSOLUTE
+        (PORT datain (1962:1962:1962) (1962:1962:1962))
+        (IOPATH datain padio (2504:2504:2504) (2504:2504:2504))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "stratix_asynch_io")
+    (INSTANCE result\[3\]\~I.inst1)
+    (DELAY
+      (ABSOLUTE
+        (PORT datain (1977:1977:1977) (1977:1977:1977))
+        (IOPATH datain padio (2504:2504:2504) (2504:2504:2504))
+      )
+    )
+  )
+)
